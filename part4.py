@@ -8,7 +8,7 @@ print("High scores:")
 for i, high_score in enumerate(t):
     print(i+1, ".", high_score)
 
-# ex 19 + 21
+# ex 19 + 20 + 21
 while True:
     new_high_score = int(input("Enter your new scores: "))
     high_scores.append(new_high_score)
